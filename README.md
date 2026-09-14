@@ -87,10 +87,7 @@ been mapped, and multiple working patches have been built and flashed to a real 
 
 ## Plans / next steps
 
-- A closed-loop exhaust-air-temperature trim feature was designed (using the four exhaust NTC
-  sensors that the stock firmware reads but does not otherwise use to correct the blend-door
-  target) but not yet implemented; the open question is where to place the integrator's persistent
-  state in RAM, which requires reading the startup RAM initializer to find unused space.
+
 - Confirm whether the heated-seat level truly survives ignition cycles in battery-backed RAM (needed
   before implementing "seat memory"); if not, an NVM write needs to be added.
 - Implement automatic heated-seat activation on cold starts, proposed to be combined with the seat
