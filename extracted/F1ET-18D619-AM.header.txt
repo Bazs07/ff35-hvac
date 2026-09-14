@@ -1,0 +1,38 @@
+vbf_version = 2.4;
+
+header {
+	//**********************************************************
+	//*
+	//*   Vector Informatik GmbH
+	//*
+	//*   This file was created by Hexview V1.08.00
+	//*
+	//**********************************************************
+
+	//Description
+	description = {"Ford C34x MCA DEATC"
+	              };
+
+	//Software part number
+	sw_part_number = "F1ET-18D619-AM";
+
+	//Software part type
+	sw_part_type = EXE;
+
+	//Network type or list
+	network = CAN_MS;
+
+	//ecu_address or list
+	ecu_address = 0x733;
+
+	//Format frame
+	frame_format = CAN_STANDARD;
+
+	//erase block
+	erase = { { 0x00008000, 0x00070000}
+	        };
+
+	//file checksum
+	file_checksum = 0x4a6d1412;
+
+}

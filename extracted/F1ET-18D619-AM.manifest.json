@@ -1,0 +1,34 @@
+{
+  "file": "F1ET-18D619-AM.VBF",
+  "size": 459474,
+  "vbf_version": "2.4",
+  "sw_part_number": "F1ET-18D619-AM",
+  "sw_part_type": "EXE",
+  "network": "CAN_MS",
+  "ecu_address": "0x733",
+  "frame_format": "CAN_STANDARD",
+  "data_format_identifier": null,
+  "call": null,
+  "file_checksum": 1248662546,
+  "header_end": 712,
+  "trailing": 0,
+  "file_checksum_calc": 1248662546,
+  "file_checksum_ok": true,
+  "erase": [
+    [
+      32768,
+      458752
+    ]
+  ],
+  "blocks": [
+    {
+      "index": 0,
+      "file": "F1ET-18D619-AM.block00.0x00008000.bin",
+      "addr": 32768,
+      "len": 458752,
+      "crc": 47526,
+      "crc_ok": true,
+      "sha256": "aa263e29ddc1c5b5910b73fcbac7c1bd50f205fb2907fbbab481bf20ab9053f3"
+    }
+  ]
+}
